@@ -1,0 +1,76 @@
+/* General settings */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.cleaner {
+    clear: both;    
+}
+p {
+    color: #545454;
+}
+ul li {
+    display: inline;
+}
+ul li[class="active"] {
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+ul li a {
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: black;
+}
+#Logo {
+    float: left;
+    width: auto;
+}
+#Logo img {
+    width: 92px;
+    height: 30px;
+}
+#SrBar { 
+    float: left;
+    width: 630px;
+}
+#SrBar input{
+    display: block;
+    width: 630px;
+    margin-top: 20px;
+    padding: 15px 0 15px 30px;
+    font-size: 15px;
+    border: 1px solid rgba(220,220,220, 0.9);
+    border-radius: 30px;
+    background-color: white;
+}
+input:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+nav ul {
+    float: right;
+    padding: 20px 35px;
+}
+#ProfAvatar {
+    background-color: rgb(153, 153, 255);
+    border-radius: 50%;
+    padding: 14px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 550;
+}
+#LowerNav  {
+    margin-right: 92px;
+    width: 722px;
+    height: 64px;
+}
+ul[id="First"] {
+    float: left;
+}
+ul[id="Second"] {
+    float: right;
+}

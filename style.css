@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     letter-spacing: 1px;
     font-size: 15px;
+    margin-top: 20px;
 }
 .cleaner {
     clear: both;    
@@ -14,8 +15,9 @@ p {
 ul li {
     display: inline;
 }
-ul li[class="active"] {
+ul li a[class="active"] {
     color: blue;
+    font-weight: 600;
     border-bottom: 3px solid blue;
 }
 ul li a {
@@ -29,19 +31,19 @@ ul li a:hover {
 #Logo {
     float: left;
     width: auto;
+    padding: 15px 35px 0 35px;
 }
 #Logo img {
-    width: 92px;
-    height: 30px;
+    width: 100px;
+    height: 35px;
 }
 #SrBar { 
     float: left;
-    width: 630px;
+    width: 700px;
 }
 #SrBar input{
     display: block;
-    width: 630px;
-    margin-top: 20px;
+    width: 700px;
     padding: 15px 0 15px 30px;
     font-size: 15px;
     border: 1px solid rgba(220,220,220, 0.9);
@@ -51,26 +53,52 @@ ul li a:hover {
 input:hover {
     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
-nav ul {
-    float: right;
-    padding: 20px 35px;
-}
 #ProfAvatar {
     background-color: rgb(153, 153, 255);
     border-radius: 50%;
     padding: 14px;
+    margin-right: 35px;
     font-size: 1.2em;
     color: white;
     font-weight: 550;
 }
 #LowerNav  {
-    margin-right: 92px;
-    width: 722px;
-    height: 64px;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+}
+#Links {
+    margin-left: 170px;
+    width: 700px;
+}
+nav ul {
+    float: right;
+}
+#First a, #Second a {
+    padding: 25px 15px 10px 15px;
 }
 ul[id="First"] {
     float: left;
 }
 ul[id="Second"] {
     float: right;
+}
+main {
+    width: 700px;
+    margin-left: 170px;
+}
+#ResultStats {
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+.result {
+    margin-bottom: 40px;
+}
+.result a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+.result .site {
+    color: green;
+    margin: 5px 0;
 }

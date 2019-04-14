@@ -16,11 +16,14 @@
                 <div id="Logo">
                     <img src="images/googlelogo.jpg" alt="Google logo">
                 </div>
-                <div id="SrBar">
+                <form id="SrBar">
+                    <img src="images/googlekeyboard.jpg" alt="Google mouse keyboard input" id="Keyboard">
+                    <img src="images/googleloupe.jpg" alt="Search google results" id="Loupe">
                     <input type="search" name="SearchBar">
-                </div>
+                </form>
                 <!-- Google profile logo and other Googles apps -->
-                     <ul>   
+                     <ul>
+                        <li><img src="images/googleappicon.jpg" alt="Google apps board" id="GApps"> </li>
                         <li><a href="#" id="ProfAvatar"> D </a></li>
                     </ul>    
             </div>
@@ -45,10 +48,10 @@
             </div>
         </nav>
         <main>
-        <div class="cleaner"></div>
-            <!-- Hardcoded search results -->
-
+            <div class="cleaner"></div>
+            <!-- Result number and time to load them -->
             <p id="ResultStats"> About 139.000.000 results (0,42 seconds) </p>
+            <!-- Hardcoded search results -->
             <div class="result">
                 <h3><a href="#"> Confluence® Official Site | Change The Way Your Team Works‎ </a></h3>
                 <p class="site"> www.atlassian.com/‎ </p>
@@ -60,7 +63,7 @@
             <div class="result">
                     <h3><a href="#"> With zero coding experience, artist building 180 webpages in 180 days </a></h3>
                     <p class="site"> https://arstechnica.com/.../with-zero-coding-experience-artist-b... </p>
-                    <p> <span>26.07.2013. -</span> 117 days ago, having never done any programming in
+                    <p> <span class="date">26.07.2013. -</span> 117 days ago, having never done any programming in
                         her life, Jennifer Dewalt built her first webpage. The next day, she built another,
                         and she ...</p>
             </div>
@@ -87,7 +90,7 @@
             <div class="result">
                     <h3><a href="#"> Jennifer Dewalt — I'm learning to code by building 180 websites in...</a></h3>
                     <p class="site"> blog.jenniferdewalt.com/.../im-learning-to-code-by-building-1... </p>
-                    <p> <span>24.07.2013. - </span> Build a different website every day for 180 consecutive days.
+                    <p> <span class="date">24.07.2013. - </span> Build a different website every day for 180 consecutive days.
                         Every website must be accompanied by a blog post. Any code I write must be ...</p>
             </div>
             <div class="result">
@@ -121,25 +124,41 @@
                 <p> Explore HTML & CSS fundamentals as you build a website in this introductory...
                     languages, you will have the skills you need to bring your website design to life.</p>
             </div>
-
-        </main>
-        <!-- Footer with two sets of lists -->
-        <footer>
-            <div class="FooterLinks">
+            <!-- Different pages of search results with Googles logo-->
+            <div id="SearchPages"> 
+                <img src="images/Pages.jpg" alt="Other google pages" id="Pages">
                 <ul>
-                    <li id="Country"> Serbia </li>
-                    <li id="City"> Belgrade - </li>
-                    <li> From history search - </li>
-                    <li> Use precise location - </li>
-                    <li> Read more </li>
+                    <li><a href="#"> 1 </a></li>
+                    <li><a href="#"> 2 </a></li>
+                    <li><a href="#"> 3 </a></li>
+                    <li><a href="#"> 4 </a></li>
+                    <li><a href="#"> 5 </a></li>
+                    <li><a href="#"> 6 </a></li>
+                    <li><a href="#"> 7 </a></li>
+                    <li><a href="#"> 8 </a></li>
+                    <li><a href="#"> 9 </a></li>
+                    <li><a href="#"> 10 </a></li>
+                    <li class="Next"><a href="#"> Next </a></li>
                 </ul>
             </div>
-            <div class="FooterLinks">
+        </main>
+        <!-- Footer with two sets of lists and informations -->
+        <footer>
+            <div id="LocationLinks">
                 <ul>
-                    <li> Help </li>
-                    <li> Send reverse information </li>
-                    <li> Privacy </li>
-                    <li> Terms </li>
+                    <li id="Country"> Serbia </li>
+                    <li id="City"><i class="fas fa-circle"></i> Belgrade </li>
+                    <li><a href="#"> - From history search </a></li>
+                    <li><a href="#"> - Use precise location </a></li>
+                    <li><a href="#"> - Read more </a></li>
+                </ul>
+            </div>
+            <div id="InfoLinks">
+                <ul>
+                    <li><a href="#"> Help </a></li>
+                    <li><a href="#"> Send reverse information </a></li>
+                    <li><a href="#"> Privacy </a></li>
+                    <li><a href="#"> Terms </a></li>
                 </ul>
             </div>
         </footer>
